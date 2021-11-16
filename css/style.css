@@ -6,3 +6,10 @@
     outline: none;
 }
 
+/* body element */
+body {
+    padding: 30px;
+    background-color: black;
+    color: peru;
+}
+
