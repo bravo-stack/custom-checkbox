@@ -47,3 +47,7 @@ input[type="checkbox"]::after {
     transform-origin: 80% top left;
     transition: transform 200ms ease-in-out;
 }
+
+input[type="checkbox"]:checked::after {
+    transform: scale(1);
+}
