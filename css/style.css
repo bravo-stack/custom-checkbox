@@ -46,6 +46,7 @@ input[type="checkbox"]::after {
     transform: scale(0);
     transform-origin: 80% top left;
     transition: transform 200ms ease-in-out;
+    clip-path: polygon(14% 44%, 0% 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
 }
 
 input[type="checkbox"]:checked::after {
