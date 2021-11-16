@@ -39,6 +39,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]::after {
+    content: "";
     background-color: peru;
     width: 1.45em;
     height: 1.45em;
